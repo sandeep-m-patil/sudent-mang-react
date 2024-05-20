@@ -14,8 +14,8 @@ function App() {
   <>
     <BrowserRouter>
 <Routes>
-<Route path="/" element={<Main />} />
-<Route index element={<Announcements />} />
+<Route path="/" element={<Announcements />} />
+<Route index element={<Contact />} />
 <Route path="/contact" element={<Contact />} />
 
   <Route path="*" element={<NoPage/>} />
